@@ -21,7 +21,7 @@ function gorjeta = calcular_gorjeta_procedural(comida, servico)
 endfunction
 
 % Exemplos de Teste Procedural:
-disp(['Gorjeta para Comida=8, Servico=9: ', num2str(calcular_gorjeta_procedural(8, 9)), '%']); % Esperado: 15
+% disp(['Gorjeta para Comida=8, Servico=9: ', num2str(calcular_gorjeta_procedural(8, 9)), '%']); % Esperado: 15
 % disp(['Gorjeta para Comida=6, Servico=6: ', num2str(calcular_gorjeta_procedural(6, 6)), '%']); % Esperado: 10
 % disp(['Gorjeta para Comida=3, Servico=7: ', num2str(calcular_gorjeta_procedural(3, 7)), '%']); % Esperado: 5
 % disp(['Gorjeta para Comida=8, Servico=3: ', num2str(calcular_gorjeta_procedural(8, 3)), '%']); % Esperado: 15 (Regra mais forte prevalece)
