@@ -32,3 +32,17 @@ for i = 1:rows(test_data)
 end
 
 disp('===================================================');
+
+% Plotar as funções de pertinência (Opcional, se o Octave tiver capacidade gráfica)
+plotmf(neb, 'input', 1);
+title('Funções de Pertinência da Comida');
+
+plotmf(neb, 'input', 2);
+title('Funções de Pertinência da Serviço');
+
+plotmf(neb, 'output', 1);
+title('Funções de Pertinência da Gorjeta');
+
+% Plotar a superfície de controle 3D (Opcional)
+gensurf(neb);
+title('Superfície de Controle do Sistema Nebuloso (Gorjeta)');
